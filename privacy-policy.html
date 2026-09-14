@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.11" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Chính sách bảo mật — OmniChat AI</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Chính sách bảo mật — OmniChat AI</h1>
+</header>
+<h1 id="chính-sách-bảo-mật-omnichat-ai">CHÍNH SÁCH BẢO MẬT — OMNICHAT
+AI</h1>
+<p><strong>Đơn vị chủ quản:</strong> AAAI SOLUTIONS PTE. LTD., công ty
+được thành lập theo pháp luật Cộng hòa Singapore (sau đây gọi là
+<strong>“AAAI”</strong>, <strong>“chúng tôi”</strong>). <strong>Ứng
+dụng:</strong> OmniChat AI — ứng dụng di động (iOS/Android) và các dịch
+vụ máy chủ đi kèm (sau đây gọi chung là <strong>“Dịch vụ”</strong>).
+<strong>Ngày hiệu lực:</strong> 14/09/2026 · <strong>Phiên bản:</strong>
+1.0 <strong>Địa chỉ đăng ký:</strong> [ĐỊA CHỈ ĐĂNG KÝ KINH DOANH TẠI
+SINGAPORE] · <strong>Mã số doanh nghiệp (UEN):</strong> 202412345A
+<strong>Liên hệ về quyền riêng tư (Data Protection Officer):</strong>
+dpo.com</p>
+<hr />
+<h2 id="cam-kết-cốt-lõi-của-chúng-tôi">CAM KẾT CỐT LÕI CỦA CHÚNG
+TÔI</h2>
+<blockquote>
+<h3
+id="dữ-liệu-của-bạn-không-bao-giờ-bị-bán-cho-bên-thứ-ba-hoặc-được-sử-dụng-để-huấn-luyện-các-mô-hình-ai-công-cộng.">🔒
+Dữ liệu của bạn không bao giờ bị bán cho bên thứ ba hoặc được sử dụng để
+huấn luyện các mô hình AI công cộng.</h3>
+<p>Cụ thể, AAAI cam kết:</p>
+<ol type="1">
+<li><strong>Không bán, không cho thuê, không trao đổi</strong> dữ liệu
+cá nhân của bạn, nội dung tin nhắn của bạn hoặc của khách hàng của bạn
+cho bất kỳ bên thứ ba nào, vì bất kỳ mục đích thương mại nào, kể cả
+quảng cáo.</li>
+<li><strong>Không sử dụng</strong> tin nhắn, tài liệu kiến thức (AI
+Brain), danh mục sản phẩm hay bất kỳ nội dung nào bạn đưa vào Dịch vụ để
+huấn luyện, tinh chỉnh (fine-tune) hoặc cải thiện bất kỳ mô hình AI công
+cộng hay mô hình dùng chung nào — dù là của chúng tôi hay của nhà cung
+cấp AI.</li>
+<li>Chỉ sử dụng các API AI của nhà cung cấp theo <strong>điều khoản dành
+cho doanh nghiệp/API</strong>, trong đó nhà cung cấp cam kết bằng hợp
+đồng <strong>không dùng dữ liệu gửi qua API để huấn luyện mô
+hình</strong> của họ (xem Mục 6).</li>
+<li>Nội dung bạn cung cấp <strong>chỉ được dùng để tạo câu trả lời cho
+chính cửa hàng của bạn</strong> — được cách ly hoàn toàn theo từng tài
+khoản; không tài khoản nào có thể truy cập dữ liệu của tài khoản
+khác.</li>
+<li>Dịch vụ <strong>không hiển thị quảng cáo</strong> và không sử dụng
+SDK quảng cáo hay theo dõi chéo ứng dụng.</li>
+</ol>
+</blockquote>
+<hr />
+<h2 id="phạm-vi-và-vai-trò-của-chúng-tôi">1. Phạm vi và vai trò của
+chúng tôi</h2>
+<p>1.1. Chính sách này giải thích cách AAAI thu thập, sử dụng, lưu trữ,
+chia sẻ và bảo vệ dữ liệu cá nhân khi bạn sử dụng Dịch vụ. Chính sách
+được xây dựng theo Đạo luật Bảo vệ Dữ liệu Cá nhân Singapore (PDPA
+2012), đồng thời đáp ứng các yêu cầu công bố của Apple App Store (App
+Privacy / Privacy Nutrition Labels, Hướng dẫn 5.1) và Google Play (Data
+Safety, Chính sách Dữ liệu Người dùng).</p>
+<p>1.2. Có hai nhóm chủ thể dữ liệu:</p>
+<ul>
+<li><strong>Người dùng</strong> — chủ cửa hàng/doanh nghiệp đăng ký tài
+khoản OmniChat AI. Đối với dữ liệu tài khoản của bạn, AAAI là
+<strong>bên kiểm soát dữ liệu</strong> (data controller / “organisation”
+theo PDPA).</li>
+<li><strong>Khách hàng của Người dùng</strong> — những người nhắn tin
+tới các kênh (Facebook, Instagram, WhatsApp, Telegram, Zalo, LINE,
+Viber, WeChat, X, Threads, YouTube, TikTok…) mà bạn đã liên kết. Đối với
+nội dung hội thoại này, <strong>bạn là bên kiểm soát dữ liệu</strong> và
+AAAI chỉ hành động với tư cách <strong>bên xử lý dữ liệu (data
+intermediary)</strong> theo chỉ dẫn của bạn.</li>
+</ul>
+<p>1.3. Dịch vụ dành cho mục đích kinh doanh và <strong>không dành cho
+người dưới 18 tuổi</strong>. Chúng tôi không cố ý thu thập dữ liệu của
+trẻ em; nếu phát hiện, chúng tôi sẽ xóa ngay.</p>
+<h2 id="dữ-liệu-chúng-tôi-thu-thập">2. Dữ liệu chúng tôi thu thập</h2>
+<h3 id="thông-tin-tài-khoản-và-đăng-nhập">2.1. Thông tin tài khoản và
+đăng nhập</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Dữ liệu</th>
+<th>Mục đích</th>
+<th>Cách thu thập</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Địa chỉ email</td>
+<td>Định danh tài khoản, đăng nhập, khôi phục mật khẩu, thông báo dịch
+vụ và gia hạn</td>
+<td>Bạn nhập khi đăng ký</td>
+</tr>
+<tr>
+<td>Mật khẩu</td>
+<td>Xác thực</td>
+<td>Được <strong>băm một chiều bằng thuật toán chuẩn có muối (salted
+hash)</strong> trước khi lưu; chúng tôi <strong>không bao giờ lưu mật
+khẩu dạng rõ</strong> và không thể đọc lại</td>
+</tr>
+<tr>
+<td>Tên hiển thị / tên cửa hàng, ngôn ngữ giao diện, múi giờ</td>
+<td>Cá nhân hóa, bản địa hóa 8 ngôn ngữ</td>
+<td>Bạn nhập trong Cài đặt</td>
+</tr>
+<tr>
+<td>Mã phiên (JWT)</td>
+<td>Duy trì đăng nhập</td>
+<td>Cấp bởi máy chủ, lưu trong vùng lưu trữ bảo mật của hệ điều hành
+(iOS Keychain / Android Keystore-backed storage)</td>
+</tr>
+</tbody>
+</table>
+<p>Khi bạn đăng nhập bằng Apple hoặc Google (nếu có), chúng tôi chỉ nhận
+email và định danh do nhà cung cấp trả về; <strong>không</strong> nhận
+mật khẩu của bạn tại các nền tảng đó.</p>
+<h3 id="token-truy-cập-mạng-xã-hội-liên-kết-kênh">2.2. Token truy cập
+mạng xã hội (liên kết kênh)</h3>
+<p>Để trả lời tin nhắn thay bạn, Dịch vụ cần bạn cấp quyền cho các tài
+khoản nền tảng của mình. Cơ chế như sau:</p>
+<ul>
+<li><strong>Chỉ dùng OAuth 2.0 chính thức</strong> của từng nền tảng
+(Meta Graph API cho Facebook/Instagram/WhatsApp Business, Zalo OA, LINE
+Messaging API, TikTok Business, X API, YouTube Data API…) hoặc
+<strong>thông tin xác thực do chính nền tảng cấp cho nhà phát
+triển</strong> (ví dụ Bot Token từ Telegram BotFather, Channel Access
+Token của LINE, Auth Token của Viber, AppID/AppSecret của WeChat
+Official Account). Ứng dụng <strong>không bao giờ yêu cầu và không bao
+giờ hiển thị ô nhập mật khẩu</strong> tài khoản mạng xã hội của bạn, và
+<strong>không thực hiện web scraping</strong> dưới bất kỳ hình thức
+nào.</li>
+<li>Màn hình cấp quyền được mở bằng trình duyệt hệ thống an toàn
+(<code>ASWebAuthenticationSession</code> trên iOS, Chrome Custom Tabs
+trên Android). Ứng dụng không thể đọc nội dung bạn nhập trên trang của
+nền tảng.</li>
+<li><strong>Quyền được yêu cầu ở mức tối thiểu</strong>: chỉ các quyền
+đọc và gửi tin nhắn/bình luận cho trang, tài khoản doanh nghiệp hoặc bot
+mà bạn chọn liên kết.</li>
+<li>Sau khi bạn đồng ý, nền tảng gửi mã ủy quyền <strong>trực tiếp đến
+máy chủ của AAAI</strong>; máy chủ đổi mã này lấy access token / refresh
+token. <strong>Token không bao giờ đi qua điện thoại của bạn</strong> và
+không được lưu trên thiết bị.</li>
+<li>Token được <strong>mã hóa bằng AES-256-GCM</strong> với khóa quản lý
+riêng (không lưu cùng cơ sở dữ liệu) trước khi lưu trữ; chỉ dịch vụ
+gửi/nhận tin nhắn mới có thể giải mã khi cần gọi API nền tảng.</li>
+<li>Bạn có thể <strong>ngắt kết nối hoặc xóa kênh bất kỳ lúc
+nào</strong> trong tab Kênh. Khi đó token bị xóa vĩnh viễn khỏi hệ thống
+của chúng tôi và webhook được hủy đăng ký. Bạn cũng có thể thu hồi quyền
+trực tiếp trong phần cài đặt của nền tảng (ví dụ Facebook → Cài đặt →
+Tích hợp doanh nghiệp).</li>
+</ul>
+<h3 id="nội-dung-hội-thoại-và-dữ-liệu-khách-hàng-của-bạn">2.3. Nội dung
+hội thoại và dữ liệu khách hàng của bạn</h3>
+<p>Khi kênh đã liên kết, nền tảng chuyển tiếp tới máy chủ của chúng tôi
+(qua webhook đã xác thực chữ ký):</p>
+<ul>
+<li>Nội dung tin nhắn văn bản, hình ảnh, tệp đính kèm do khách hàng của
+bạn gửi và các phản hồi được gửi đi (do AI hoặc do bạn soạn thủ
+công);</li>
+<li>Định danh do nền tảng cấp cho khách hàng (ID người gửi, tên hiển
+thị, ảnh đại diện nếu nền tảng cung cấp) — chúng tôi
+<strong>không</strong> truy vấn thêm hồ sơ cá nhân ngoài những gì nền
+tảng gửi kèm tin nhắn;</li>
+<li>Thông tin khách hàng tự cung cấp trong hội thoại để hoàn tất đơn
+hàng (ví dụ số điện thoại, địa chỉ giao hàng) — được lưu trong Hộp thư
+hợp nhất và mục Đơn hàng để bạn xử lý.</li>
+</ul>
+<p>Dữ liệu này <strong>thuộc về bạn</strong>. Chúng tôi chỉ xử lý để:
+hiển thị trong Hộp thư hợp nhất, tạo câu trả lời tự động, phát hiện sự
+kiện chốt/hủy đơn để gửi thông báo cho bạn, và lập báo cáo phân tích cho
+riêng tài khoản của bạn.</p>
+<h3 id="dữ-liệu-ai-brain-kho-kiến-thức">2.4. Dữ liệu AI Brain (kho kiến
+thức)</h3>
+<p>Danh mục sản phẩm và giá, chính sách giao hàng/đổi trả, giờ làm việc,
+địa chỉ, khuyến mãi, bộ câu hỏi thường gặp, tài liệu, hình ảnh, video,
+đường dẫn và văn bản bạn tải lên để “dạy” AI. Dữ liệu này chỉ được dùng
+làm ngữ cảnh khi tạo câu trả lời cho cửa hàng của bạn. Khi bạn xóa một
+tài liệu, <strong>toàn bộ dữ liệu AI đã bóc tách từ tài liệu đó cũng bị
+xóa theo</strong> (cascade delete).</p>
+<h3 id="dữ-liệu-thiết-bị-và-thông-báo-đẩy">2.5. Dữ liệu thiết bị và
+thông báo đẩy</h3>
+<ul>
+<li>Mã thông báo đẩy (APNs / Firebase Cloud Messaging token) để gửi
+thông báo về tin nhắn mới, chốt đơn, hủy đơn, yêu cầu can thiệp và nhắc
+gia hạn;</li>
+<li>Loại thiết bị, phiên bản hệ điều hành, phiên bản ứng dụng, ngôn ngữ
+— để đảm bảo tương thích và chẩn đoán sự cố;</li>
+<li>Nhật ký lỗi kỹ thuật (crash log) <strong>không chứa nội dung tin
+nhắn</strong>.</li>
+</ul>
+<p>Chúng tôi <strong>không</strong> thu thập vị trí chính xác, danh bạ,
+ảnh/media ngoài những tệp bạn chủ động chọn tải lên, và không thu thập
+định danh quảng cáo (IDFA / Advertising ID).</p>
+<h3 id="dữ-liệu-thanh-toán">2.6. Dữ liệu thanh toán</h3>
+<ul>
+<li><strong>Mua trong ứng dụng (iOS/Android):</strong> giao dịch được
+Apple App Store / Google Play xử lý. Chúng tôi nhận qua RevenueCat các
+thông tin: mã giao dịch ẩn danh, gói đã mua, ngày bắt đầu/hết hạn, trạng
+thái gia hạn. <strong>Chúng tôi không bao giờ tiếp cận số thẻ, thông tin
+ngân hàng hay địa chỉ thanh toán của bạn.</strong></li>
+<li><strong>Thanh toán qua web (Stripe):</strong> số thẻ, GrabPay,
+PayNow, Google Pay… được nhập trực tiếp trên trang thanh toán do Stripe
+bảo mật theo chuẩn PCI-DSS Level 1. Chúng tôi chỉ lưu mã khách hàng
+Stripe, trạng thái đăng ký và 4 số cuối của thẻ (nếu Stripe cung cấp) để
+hiển thị.</li>
+<li>Hóa đơn và hồ sơ giao dịch được lưu giữ theo thời hạn luật kế
+toán/thuế Singapore yêu cầu (hiện là 5 năm).</li>
+</ul>
+<h3 id="dữ-liệu-sử-dụng">2.7. Dữ liệu sử dụng</h3>
+<p>Số lượng tin nhắn AI đã dùng trong kỳ (để tính hạn mức gói PRO), số
+kênh liên kết, sự kiện chốt/hủy đơn theo nền tảng (cho tab Phân tích).
+Chúng tôi không dùng công cụ phân tích hành vi của bên thứ ba có mục
+đích quảng cáo.</p>
+<h2 id="mục-đích-và-cơ-sở-pháp-lý-xử-lý">3. Mục đích và cơ sở pháp lý xử
+lý</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Mục đích</th>
+<th>Cơ sở pháp lý (PDPA / GDPR nếu áp dụng)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cung cấp Dịch vụ: đăng nhập, liên kết kênh, nhận/gửi tin nhắn, tạo
+câu trả lời AI, hộp thư, phân tích</td>
+<td>Thực hiện hợp đồng với bạn; sự đồng ý khi bạn liên kết kênh</td>
+</tr>
+<tr>
+<td>Thanh toán, gia hạn, hạn mức, nhắc hết hạn (3 ngày trước và đúng
+ngày hết hạn)</td>
+<td>Thực hiện hợp đồng; nghĩa vụ pháp lý (kế toán)</td>
+</tr>
+<tr>
+<td>Thông báo đẩy về hoạt động tài khoản</td>
+<td>Thực hiện hợp đồng; bạn có thể tắt trong Cài đặt hệ điều hành</td>
+</tr>
+<tr>
+<td>Bảo mật, chống gian lận/lạm dụng, chẩn đoán lỗi</td>
+<td>Lợi ích hợp pháp của chúng tôi và của bạn</td>
+</tr>
+<tr>
+<td>Tuân thủ yêu cầu của cơ quan có thẩm quyền</td>
+<td>Nghĩa vụ pháp lý</td>
+</tr>
+<tr>
+<td>Email tiếp thị (nếu có)</td>
+<td>Sự đồng ý; có thể rút lại bất kỳ lúc nào qua liên kết hủy đăng
+ký</td>
+</tr>
+</tbody>
+</table>
+<p>Chúng tôi <strong>không</strong> đưa ra quyết định tự động có ảnh
+hưởng pháp lý đáng kể tới bạn; AI chỉ soạn thảo phản hồi trong phạm vi
+bạn cấu hình và bạn luôn có thể can thiệp thủ công.</p>
+<h2 id="chia-sẻ-dữ-liệu-các-bên-xử-lý-phụ">4. Chia sẻ dữ liệu — các bên
+xử lý phụ</h2>
+<p>Chúng tôi chỉ chia sẻ dữ liệu với các nhà cung cấp cần thiết để vận
+hành Dịch vụ, mỗi bên bị ràng buộc bởi hợp đồng xử lý dữ liệu và chỉ
+được xử lý theo chỉ dẫn của chúng tôi:</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Bên xử lý phụ</th>
+<th>Vai trò</th>
+<th>Dữ liệu liên quan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OpenAI (API)</td>
+<td>Tạo câu trả lời AI</td>
+<td>Ngữ cảnh hội thoại và kiến thức cần thiết cho từng lượt trả lời (Mục
+6)</td>
+</tr>
+<tr>
+<td>Apple (App Store, APNs) / Google (Play, Firebase Cloud
+Messaging)</td>
+<td>Phân phối ứng dụng, thanh toán trong ứng dụng, thông báo đẩy</td>
+<td>Token đẩy; giao dịch ẩn danh</td>
+</tr>
+<tr>
+<td>RevenueCat</td>
+<td>Quản lý trạng thái đăng ký trên iOS/Android</td>
+<td>Định danh tài khoản ẩn danh, trạng thái gói</td>
+</tr>
+<tr>
+<td>Stripe</td>
+<td>Thanh toán qua web</td>
+<td>Dữ liệu thanh toán do Stripe thu thập trực tiếp</td>
+</tr>
+<tr>
+<td>Các nền tảng nhắn tin mà bạn liên kết (Meta, Telegram, Zalo, LINE,
+Viber, WeChat, X, TikTok, YouTube…)</td>
+<td>Truyền tin nhắn hai chiều theo lệnh của bạn</td>
+<td>Nội dung phản hồi, media bạn cho phép AI gửi</td>
+</tr>
+<tr>
+<td>Nhà cung cấp hạ tầng máy chủ và lưu trữ [TÊN NHÀ CUNG CẤP, KHU
+VỰC]</td>
+<td>Lưu trữ và vận hành</td>
+<td>Toàn bộ dữ liệu ở trạng thái mã hóa khi lưu trữ</td>
+</tr>
+<tr>
+<td>Dịch vụ email giao dịch [TÊN NHÀ CUNG CẤP]</td>
+<td>Gửi email xác minh, đặt lại mật khẩu, nhắc gia hạn</td>
+<td>Email, nội dung thông báo</td>
+</tr>
+</tbody>
+</table>
+<p>Ngoài ra, chúng tôi có thể tiết lộ dữ liệu khi <strong>luật pháp yêu
+cầu</strong> (lệnh của tòa án hoặc cơ quan có thẩm quyền, sau khi thẩm
+định tính hợp lệ) hoặc trong <strong>giao dịch tái cơ cấu doanh
+nghiệp</strong> (bên nhận chuyển nhượng phải tiếp tục tuân thủ Chính
+sách này; bạn sẽ được thông báo trước). <strong>Trong mọi trường hợp,
+không có việc bán dữ liệu.</strong></p>
+<h2
+id="bảng-công-bố-theo-apple-app-privacy-và-google-play-data-safety">5.
+Bảng công bố theo Apple App Privacy và Google Play Data Safety</h2>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th>Loại dữ liệu</th>
+<th>Thu thập?</th>
+<th>Liên kết với danh tính?</th>
+<th>Dùng để theo dõi (tracking)?</th>
+<th>Mục đích</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Email</td>
+<td>Có</td>
+<td>Có</td>
+<td>Không</td>
+<td>Chức năng ứng dụng, quản lý tài khoản</td>
+</tr>
+<tr>
+<td>Tên / tên cửa hàng</td>
+<td>Có</td>
+<td>Có</td>
+<td>Không</td>
+<td>Chức năng ứng dụng</td>
+</tr>
+<tr>
+<td>Tin nhắn (của khách hàng của bạn)</td>
+<td>Có</td>
+<td>Có</td>
+<td>Không</td>
+<td>Chức năng ứng dụng</td>
+</tr>
+<tr>
+<td>Ảnh/video/tài liệu bạn tải lên</td>
+<td>Có</td>
+<td>Có</td>
+<td>Không</td>
+<td>Chức năng ứng dụng</td>
+</tr>
+<tr>
+<td>Lịch sử mua hàng (gói đăng ký)</td>
+<td>Có</td>
+<td>Có</td>
+<td>Không</td>
+<td>Chức năng ứng dụng</td>
+</tr>
+<tr>
+<td>Thông tin thanh toán (số thẻ)</td>
+<td><strong>Không</strong> (Apple/Google/Stripe xử lý)</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Mã thiết bị / token đẩy</td>
+<td>Có</td>
+<td>Có</td>
+<td>Không</td>
+<td>Chức năng ứng dụng</td>
+</tr>
+<tr>
+<td>Dữ liệu sử dụng (hạn mức AI, sự kiện đơn hàng)</td>
+<td>Có</td>
+<td>Có</td>
+<td>Không</td>
+<td>Chức năng ứng dụng, phân tích nội bộ</td>
+</tr>
+<tr>
+<td>Nhật ký lỗi</td>
+<td>Có</td>
+<td>Không</td>
+<td>Không</td>
+<td>Chẩn đoán</td>
+</tr>
+<tr>
+<td>Vị trí, danh bạ, IDFA/Advertising ID, dữ liệu sức khỏe, dữ liệu tài
+chính</td>
+<td><strong>Không</strong></td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p>Toàn bộ dữ liệu được <strong>mã hóa khi truyền</strong> (TLS 1.2 trở
+lên) và người dùng có thể <strong>yêu cầu xóa</strong> trực tiếp trong
+ứng dụng (Mục 8).</p>
+<h2
+id="cách-nội-dung-tin-nhắn-được-xử-lý-và-mã-hóa-khi-giao-tiếp-với-api-ai">6.
+Cách nội dung tin nhắn được xử lý và mã hóa khi giao tiếp với API
+AI</h2>
+<p>6.1. <strong>Luồng dữ liệu.</strong> Khi khách hàng của bạn gửi tin
+nhắn, máy chủ của chúng tôi lắp ráp một “ngữ cảnh” gồm: hướng dẫn hệ
+thống (giọng điệu, quy tắc bạn cấu hình), phần kiến thức AI Brain liên
+quan, và một số tin nhắn gần nhất của hội thoại đó. Ngữ cảnh này được
+gửi tới API của nhà cung cấp AI để tạo câu trả lời, sau đó câu trả lời
+được gửi về nền tảng nhắn tin.</p>
+<p>6.2. <strong>Mã hóa đầu vào/đầu ra.</strong> - Mọi kết nối điện thoại
+↔︎ máy chủ AAAI ↔︎ API AI ↔︎ nền tảng nhắn tin đều được mã hóa bằng
+<strong>TLS 1.2 trở lên (HTTPS)</strong> với chứng chỉ được xác thực;
+không có dữ liệu đi qua kết nối không mã hóa. - Webhook từ các nền tảng
+chỉ được chấp nhận khi <strong>chữ ký/secret token hợp lệ</strong>; yêu
+cầu không xác thực bị từ chối. - Nội dung tin nhắn, kiến thức AI Brain
+và tệp media được lưu trên hạ tầng có <strong>mã hóa khi lưu trữ
+(encryption at rest, AES-256)</strong>; token truy cập nền tảng được mã
+hóa thêm một lớp ứng dụng (AES-256-GCM, Mục 2.2). - Mã thông báo đẩy và
+thông tin thanh toán không bao giờ được gửi tới API AI.</p>
+<p>6.3. <strong>Tối thiểu hóa dữ liệu gửi tới AI.</strong> Chúng tôi chỉ
+gửi phần hội thoại và kiến thức cần thiết cho lượt trả lời hiện tại;
+<strong>không</strong> gửi email, mật khẩu, token, thông tin thanh toán
+hay dữ liệu của các cửa hàng khác. Định danh nền tảng của khách hàng
+được thay bằng định danh nội bộ trước khi gửi.</p>
+<p>6.4. <strong>Không huấn luyện.</strong> Chúng tôi sử dụng API dành
+cho doanh nghiệp của nhà cung cấp AI (hiện là OpenAI). Theo điều khoản
+API của nhà cung cấp, <strong>dữ liệu gửi qua API không được dùng để
+huấn luyện hoặc cải thiện mô hình của họ</strong>. Nhà cung cấp có thể
+lưu giữ tạm thời nhật ký API trong thời gian giới hạn (theo chính sách
+công bố của họ, tối đa 30 ngày) chỉ để phát hiện lạm dụng, sau đó xóa.
+Chúng tôi sẽ ưu tiên bật chế độ <strong>không lưu giữ dữ liệu (Zero Data
+Retention)</strong> khi nhà cung cấp cấp quyền cho tài khoản của chúng
+tôi. Bản thân AAAI không huấn luyện bất kỳ mô hình nào trên dữ liệu của
+bạn.</p>
+<p>6.5. <strong>Cách ly theo tài khoản.</strong> Kho kiến thức và hội
+thoại của mỗi tài khoản được cách ly logic bằng định danh tài khoản trên
+mọi truy vấn; AI của cửa hàng này không bao giờ “nhìn thấy” dữ liệu của
+cửa hàng khác.</p>
+<p>6.6. <strong>Kiểm soát của con người.</strong> Bạn có thể tạm dừng AI
+cho từng hội thoại (tự động khi bạn trả lời thủ công), tắt AI theo kênh,
+hoặc yêu cầu AI chuyển giao cho người khi khách hàng yêu cầu.</p>
+<h2 id="bảo-mật">7. Bảo mật</h2>
+<ul>
+<li>Kiểm soát truy cập theo nguyên tắc tối thiểu; nhân sự AAAI chỉ truy
+cập dữ liệu khi cần hỗ trợ kỹ thuật theo yêu cầu của bạn và mọi truy cập
+được ghi nhật ký.</li>
+<li>Khóa mã hóa, secret và thông tin cấu hình được quản lý tách biệt
+khỏi cơ sở dữ liệu và mã nguồn.</li>
+<li>Sao lưu định kỳ ở trạng thái mã hóa; kiểm thử phục hồi.</li>
+<li><strong>Thông báo vi phạm:</strong> nếu xảy ra sự cố dữ liệu có khả
+năng gây thiệt hại đáng kể, chúng tôi sẽ thông báo cho Ủy ban Bảo vệ Dữ
+liệu Cá nhân Singapore (PDPC) trong vòng 3 ngày theo lịch kể từ khi xác
+định và thông báo cho bạn không chậm trễ, kèm hướng dẫn giảm thiểu.</li>
+<li>Không có hệ thống nào an toàn tuyệt đối; bạn có trách nhiệm giữ bí
+mật mật khẩu và bảo vệ thiết bị của mình.</li>
+</ul>
+<h2 id="lưu-trữ-và-xóa-dữ-liệu">8. Lưu trữ và xóa dữ liệu</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Dữ liệu</th>
+<th>Thời hạn lưu trữ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tài khoản, AI Brain, hội thoại, media</td>
+<td>Trong suốt thời gian tài khoản hoạt động</td>
+</tr>
+<tr>
+<td>Token truy cập nền tảng</td>
+<td>Đến khi bạn ngắt kết nối kênh hoặc xóa tài khoản — xóa ngay</td>
+</tr>
+<tr>
+<td>Hội thoại bạn xóa trong Hộp thư</td>
+<td>Xóa ngay khỏi hệ thống chính; bản sao lưu bị ghi đè trong tối đa 30
+ngày</td>
+</tr>
+<tr>
+<td>Tài khoản bị xóa</td>
+<td>Toàn bộ dữ liệu bị xóa vĩnh viễn trong <strong>30 ngày</strong>
+(thời gian đệm để phòng thao tác nhầm); bản sao lưu bị ghi đè trong tối
+đa 30 ngày tiếp theo</td>
+</tr>
+<tr>
+<td>Hồ sơ giao dịch/hóa đơn</td>
+<td>5 năm theo luật Singapore, ở dạng tách biệt khỏi dữ liệu hội
+thoại</td>
+</tr>
+<tr>
+<td>Nhật ký kỹ thuật</td>
+<td>Tối đa 90 ngày</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Xóa tài khoản &amp; dữ liệu trong ứng dụng:</strong> vào
+<strong>Cài đặt → Xóa tài khoản &amp; dữ liệu</strong> (nút hiển thị rõ
+ràng, không yêu cầu liên hệ hỗ trợ). Việc xóa sẽ: hủy đăng ký webhook và
+xóa token mọi kênh, xóa AI Brain, hội thoại, media, token đẩy và thông
+tin hồ sơ. Gói đăng ký đang hoạt động phải được hủy riêng qua
+Apple/Google (xem EULA) — việc xóa tài khoản không tự động hoàn tiền
+phần chưa dùng. Bạn cũng có thể yêu cầu xóa qua email DPO.</p>
+<h2 id="quyền-của-bạn">9. Quyền của bạn</h2>
+<p>Theo PDPA (và GDPR/UK GDPR, CCPA nếu bạn cư trú tại các khu vực đó),
+bạn có quyền:</p>
+<ul>
+<li><strong>Truy cập</strong> và nhận bản sao dữ liệu cá nhân của
+mình;</li>
+<li><strong>Chỉnh sửa</strong> dữ liệu không chính xác (trực tiếp trong
+Cài đặt hoặc qua yêu cầu);</li>
+<li><strong>Xóa</strong> dữ liệu (Mục 8);</li>
+<li><strong>Rút lại sự đồng ý</strong> (ngắt kết nối kênh, tắt thông
+báo, hủy email tiếp thị) — việc rút lại có thể khiến một số chức năng
+không còn sử dụng được;</li>
+<li><strong>Di chuyển dữ liệu</strong>: xuất hội thoại và AI Brain ở
+định dạng máy đọc được theo yêu cầu;</li>
+<li><strong>Phản đối/hạn chế</strong> một số hoạt động xử lý;</li>
+<li><strong>Khiếu nại</strong> với cơ quan bảo vệ dữ liệu có thẩm quyền
+(tại Singapore: PDPC, www.pdpc.gov.sg).</li>
+</ul>
+<p>Chúng tôi phản hồi trong vòng <strong>30 ngày</strong> và không tính
+phí trừ trường hợp yêu cầu rõ ràng không có căn cứ hoặc lặp lại quá mức.
+Chúng tôi có thể yêu cầu xác minh danh tính trước khi thực hiện.</p>
+<h2 id="trách-nhiệm-của-bạn-đối-với-khách-hàng-của-bạn">10. Trách nhiệm
+của bạn đối với khách hàng của bạn</h2>
+<p>Vì bạn là bên kiểm soát dữ liệu đối với hội thoại với khách hàng, bạn
+cam kết:</p>
+<ul>
+<li>Có cơ sở pháp lý và thông báo phù hợp để thu thập, xử lý tin nhắn
+của khách hàng bằng công cụ tự động, theo luật nơi bạn hoạt động;</li>
+<li>Tuân thủ điều khoản nền tảng (ví dụ chính sách Meta về việc công bố
+khi trò chuyện với bot, quy tắc cửa sổ 24 giờ của WhatsApp/Messenger,
+chính sách gửi tin của Zalo OA…);</li>
+<li>Không tải lên AI Brain dữ liệu cá nhân nhạy cảm không cần thiết (dữ
+liệu sức khỏe, tài chính, định danh nhà nước…) của bên thứ ba;</li>
+<li>Xử lý và phản hồi yêu cầu về quyền riêng tư từ khách hàng của bạn;
+chúng tôi sẽ hỗ trợ bằng công cụ xóa hội thoại và xuất dữ liệu.</li>
+</ul>
+<h2 id="chuyển-dữ-liệu-xuyên-biên-giới">11. Chuyển dữ liệu xuyên biên
+giới</h2>
+<p>Dữ liệu có thể được lưu trữ và xử lý tại Singapore và các khu vực nơi
+bên xử lý phụ của chúng tôi vận hành (bao gồm Hoa Kỳ và Liên minh châu
+Âu). Mọi chuyển giao được bảo vệ bằng hợp đồng có điều khoản bảo vệ dữ
+liệu tương đương PDPA (đối với dữ liệu thuộc phạm vi GDPR: Điều khoản
+Hợp đồng Tiêu chuẩn của EU).</p>
+<h2 id="cookie-và-công-nghệ-theo-dõi">12. Cookie và công nghệ theo
+dõi</h2>
+<p>Ứng dụng di động không sử dụng cookie. Trang web thanh toán chỉ dùng
+cookie kỹ thuật cần thiết cho phiên đăng nhập và cookie của Stripe để
+phòng chống gian lận. Chúng tôi không dùng cookie quảng cáo và tôn trọng
+tín hiệu “Do Not Track” ở mức có thể áp dụng.</p>
+<h2 id="thay-đổi-chính-sách">13. Thay đổi Chính sách</h2>
+<p>Khi thay đổi quan trọng (ví dụ bổ sung bên xử lý phụ, thay đổi mục
+đích), chúng tôi thông báo trong ứng dụng và/hoặc qua email <strong>ít
+nhất 15 ngày</strong> trước khi có hiệu lực. Việc tiếp tục sử dụng Dịch
+vụ sau ngày hiệu lực là sự chấp thuận phiên bản mới; nếu không đồng ý,
+bạn có thể xóa tài khoản. Các phiên bản cũ được lưu trữ và cung cấp theo
+yêu cầu.</p>
+<h2 id="liên-hệ">14. Liên hệ</h2>
+<ul>
+<li><strong>Data Protection Officer:</strong> dpo.com</li>
+<li><strong>Hỗ trợ:</strong> support.com</li>
+<li><strong>Thư tín:</strong> AAAI SOLUTIONS PTE. LTD., 123 Example
+Road, #01-01, Singapore 123456, Singapore</li>
+</ul>
+<p>Chính sách này được lập bằng tiếng Việt; trường hợp có bản dịch, bản
+tiếng Anh là bản có giá trị giải thích khi có mâu thuẫn, trừ khi luật
+nơi bạn cư trú quy định khác.</p>
+</body>
+</html>
